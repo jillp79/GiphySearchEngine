@@ -1,0 +1,59 @@
+body {
+    background-color: #222;
+}
+
+div>.row {
+    padding: 1em;
+}
+
+nav>.navbar-brand {
+    padding-left: 1em;
+}
+
+.about-header {
+    margin-left: 1.5em;
+}
+
+img {
+    width: 250px;
+    height: auto;
+    margin: .5em;
+}
+
+.body-text {
+    font-size: large;
+    color: black;
+}
+
+@media (min-width: 320px) {
+    .nav-item {
+        padding-left: 1.25em;
+    }
+}
+
+.TopBar {
+    height: .5px;
+    padding: 12px;
+    background-image: -webkit-gradient(linear, right top, left top, from(violet), color-stop(indigo), color-stop(blue), color-stop(green), color-stop(yellow), color-stop(orange), to(red));
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+}
+
+footer {
+    background-image: -webkit-gradient(linear, right top, left top, from(violet), color-stop(indigo), color-stop(blue), color-stop(green), color-stop(yellow), color-stop(orange), to(red));
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    margin-top: 3em;
+    padding: .75em;
+}
+
+.logo-image {
+    width: 46px;
+    height: 46px;
+    margin-top: -6px;
+}
+
+.center {
+    margin: 0 auto
+}
+
+
+/*# sourceMappingURL=style.css.map */
