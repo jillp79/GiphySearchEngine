@@ -13,7 +13,7 @@ This site was created to search GIFs using giphy.com database. Users can type ke
 # Future Improvements
 1. Add an upload button
 2. Create a sign in button so people can login and store their gifs
-3. Add info to the About page
-4. Add info to the Blog section
+3. Add info to the About page (see wireframe)
+4. Add info to the Blog section (see wireframe)
 
 
