@@ -2,6 +2,42 @@ body {
     background-color: #222;
 }
 
+#gifDiv {
+    line-height: 0;
+    column-count: 5;
+    column-gap: 15px;
+}
+
+#gifDiv img {
+    /* Just in case there are inline attributes */
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1200px) {
+    #gifDiv {
+        column-count: 4;
+    }
+}
+
+@media (max-width: 1000px) {
+    #gifDiv {
+        column-count: 3;
+    }
+}
+
+@media (max-width: 800px) {
+    #gifDiv {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 400px) {
+    #gifDiv {
+        column-count: 1;
+    }
+}
+
 div>.row {
     padding: 1em;
 }
@@ -34,12 +70,10 @@ img {
 .TopBar {
     height: .5px;
     padding: 12px;
-    background-image: -webkit-gradient(linear, right top, left top, from(violet), color-stop(indigo), color-stop(blue), color-stop(green), color-stop(yellow), color-stop(orange), to(red));
     background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
 }
 
 footer {
-    background-image: -webkit-gradient(linear, right top, left top, from(violet), color-stop(indigo), color-stop(blue), color-stop(green), color-stop(yellow), color-stop(orange), to(red));
     background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
     margin-top: 3em;
     padding: .75em;
